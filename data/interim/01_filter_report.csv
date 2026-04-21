@@ -1,0 +1,6 @@
+stage,before_rows,after_rows,dropped_rows,reason
+sanitize_fields,64680,64680,0,Limpeza inicial de nulls e espaços em raw_sql/raw_label
+filter_valid_labels,64680,64680,0,"Mantém apenas labels em {'0', '1'}"
+filter_nonempty_raw_sql,64680,64675,5,Remove linhas com raw_sql vazia
+filter_nonempty_sql_normalized,64675,64675,0,Remove linhas cuja normalização gerou SQL vazia
+deduplicate,64675,46079,18596,"Remove duplicatas por (sql_normalized, raw_label)"

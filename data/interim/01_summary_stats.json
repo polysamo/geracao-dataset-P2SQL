@@ -1,0 +1,9 @@
+{
+  "total_input_rows": 64680,
+  "total_prepared_rows": 46079,
+  "total_dropped_rows": 18601,
+  "review_flag_suspect_row": 34320,
+  "review_flag_unknown_verb": 31450,
+  "review_flag_empty_canonical_intent": 0,
+  "review_flag_no_target_tables": 31885
+}

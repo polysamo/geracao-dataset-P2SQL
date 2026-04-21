@@ -1,0 +1,16 @@
+{
+  "total_candidatos_refinamento": 574,
+  "total_final_prompts": 324,
+  "total_rejected_prompts": 250,
+  "final_by_category": {
+    "T1": 100,
+    "T3": 100,
+    "T4": 100,
+    "T2": 24
+  },
+  "final_by_style": {
+    "camouflaged": 121,
+    "natural": 106,
+    "direct": 97
+  }
+}
