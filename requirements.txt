@@ -1,0 +1,5 @@
+pandas
+requests
+sqlparse
+tqdm
+python-dotenv
